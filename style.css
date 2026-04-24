@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    gap: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar__s1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navbar__s1_title img {
+    width: 120px;
+}
+
+.navbar__s1 p {
+    font-size: 15px;
+
+    color: gray;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar__s1 p:hover {
+    background-color: #F6F7F9;
+    color: #a747e7;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 35%;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    border: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s3 p {
+    color: gray;
+    font-size: 15px;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar__s3 p:hover {
+    background-color: #F6F7F9;
+    color: #a747e7;
+}
+
+.navbar__s4 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Login__bar {
+    color: #5F24CA;
+    display: flex;
+    padding: 10px;
+    border: solid #5F24CA 2px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.Sign__bar {
+    background-color: #5F24CA;
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.Sign__bar:hover {
+    background-color: #892DE1;
+}
+
+.Login__bar:hover {
+    background-color: #F6F7F9;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #a747e7;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.categories p:hover {
+    background-color: #7a1ec0;
+}
+.sale-image{
+    position: relative;
+}
+.sale-image__offer{
+    width: 400px;
+    border: solid black 2px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top :90px;
+    left: 50px;
+}
+.sale-image img {
+    width: 100%;
+}
+
+.Recommended {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.Recommended h2 {
+    color: gray;
+    font-size: 14px;
+}
+
+.Recommended__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course__card {
+    width: 300px;
+    margin-top: 20px;
+    border: solid #e8e8ed 2px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.course__card img {
+    width: 100%;
+    height: 200px;
+}
+
+.course__card p {
+    padding: 5px;
+}
+
+.course__card:hover {
+    background-color: #F6F7F9;
+}
+
+.bs {
+    background-color: #C2E9EB;
+    color: #0D5261;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.pm {
+    background-color: #5022C3;
+    color: white;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.high {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.offer {
+    color: gray;
+    font-size: 15px;
+}
+
+.revive {
+    color: gray;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.topics__container p:hover {
+    background-color: #F6F7F9;
+}
+
+.mostpopular {
+    padding: 10px;
+}
+
+.mostpopular h2 {
+    color: gray;
+    font-size: 14px;
+}
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one p {
+    margin: 20px;
+}
