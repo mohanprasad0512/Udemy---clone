@@ -19,6 +19,8 @@ body {
     top: 0;
     background-color: white;
     z-index: 1;
+    flex-grow: 1;
+    flex-basis: 20%;
 }
 
 .navbar__s1 {
@@ -132,6 +134,7 @@ body {
     border-radius: 20px;
      cursor: pointer;
      border: solid #a747e7 1px;
+     
 }
 
 .categories p:hover {
@@ -194,8 +197,9 @@ opacity: 0;
 }
 
 .course__card {
-    width: 300px;
-    margin-top: 20px;
+     flex-grow: 1;
+     flex-basis: 20%;
+     margin: 5px;
     border: solid #e8e8ed 2px;
     border-radius: 20px;
     padding: 20px;
@@ -304,4 +308,15 @@ opacity: 0;
 
 .footer__one p {
     margin: 20px;
+}
+@media  screen and (max-width:600px) {
+    .course__card{
+        flex-basis: 20%;
+    }
+    .categories{
+        display: none;
+    }
+    .navbar__s2,.navbar__s3,.navbar__s4{
+        display: none;
+    }
 }
