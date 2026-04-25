@@ -130,15 +130,15 @@ body {
     color: white;
     padding: 10px;
     border-radius: 20px;
-    cursor: pointer;
+     cursor: pointer;
      border: solid #a747e7 1px;
 }
 
 .categories p:hover {
-    transition: 1s;
-    background-color: transparent;
-    color: black;
-    border: solid black 1px;
+     transition: 1s;
+     background-color: transparent;
+     color: black;
+     border: solid #a747e7 1px;
 }
 
 .sale-image {
@@ -157,19 +157,21 @@ body {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
+     
 }
+@keyframes zoom{
+    0%{
+transform:scale(0) ;
+opacity: 0;
 
-@keyframes zoom {
-    0% {
-        transform: scale(0);
-        opacity: 0;
     }
-
-    100% {
+    100%{
         transform: scale(1);
         opacity: 1;
     }
 }
+
+ 
 
 .sale-image img {
     width: 100%;
